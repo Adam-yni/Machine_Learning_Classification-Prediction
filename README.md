@@ -24,3 +24,8 @@ By analyzing these conditions and applying optimization techniques, I was able t
 For the second part of the project, I worked with a dataset named 'industrial_process'. This dataset contained anonymized data from a production chain, with different inputs measured at regular intervals and 15 output variables. Each output had a measured value and an expected value defined by the operator.
 
 The task was to forecast the values of the 15 outputs over a 10-time-interval horizon. Using this forecast, I then determined which input values should be applied to ensure that the output values met the expected results. This required a combination of forecasting techniques and optimization strategies to provide actionable insights for process control in the industrial setting.
+
+Here is the graph showing the results. On this graph we can see the expected values and the optimal values predicted in order to get closer to the expected values.
+Remember that the objective was to choose the optimal variables to enter in order to get closer to the expected value.
+I've also added the closest measured value (in the whole dataset) to the expected value in green. You can see that the value obtained by our prediction is always better than the best measured value (in the sense of the value closest to the expected value) in the dataset.
+![Final graph](./graph_ML.png)
